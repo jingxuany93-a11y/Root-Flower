@@ -1,0 +1,118 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header {
+  background: #F297A0;   
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #ddd; 
+}
+header h1 {
+  font: italic small-caps bold 2em/1.2 "Georgia", serif;
+  color: #000000;
+  margin: 0;
+}
+
+nav {
+  background: #F3EBD8;   
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  position: relative;
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  background: #e2d6bb;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #F3EBD8;
+  min-width: 160px;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.dropdown-content li {
+  list-style: none;
+}
+.dropdown-content li a {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+}
+.dropdown-content li a:hover {
+  background: #e1d1db;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.promo-btn {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #F297A0;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2100;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.promo-box {
+  position: fixed;
+  top: 200px;
+  right: 80px;
+  width: 250px;
+  height: 250px;
+  background: #F3EBD8;
+  border: 2px solid #F297A0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 15px;
+  display: none;
+  z-index: 2099;
+}
+#promo-toggle:checked ~ .promo-box {
+  display: block;
+}
+
+main {
+  padding: 20px;
+}
+section {
+  max-width: 65%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  background: #F297A0;
+  color: #000000;
+  padding: 15px 0;
+  margin-top: 20px; 
+}
+

@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Root Flower</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="rootflowerlogo160.jpg" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="websitelogo.svg" type="image/x-icon">
 </head>
 <body>
 
   <div class="topbar">
     <header>
-      <img src="websitelogo.svg" alt="Website Logo" class="logo" />
-      <h1>Root Flower</h1>
+      <div class="header-title">
+      <img src="websitelogo.svg" height="140" width="70" alt="Website Logo" class="logo" />
+      <h1 class="site-title">Root Flower</h1>
+        </div>
     </header>
   
     <nav>
@@ -35,7 +38,10 @@
           </ul>
         </li>
         <li><a href="membership.html">Membership</a></li>
+        <li><a href="workshop-form.html">Workshop form</a></li>
         <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="about-us.html">About us</a></li>
+        <li><a href="login.html">Login</a></li>
       </ul>
     </nav>
   </div>
@@ -44,11 +50,19 @@
     <section>
       <h2>Welcome to Root Flower</h2>
       <p>Your trusted florist in Kuching. Explore our latest promotions, products, and workshops.</p>
-      <video width="400" height="450" autoplay muted loop>
-      <source src="VID_20250912191930.mp4" type="video/mp4">
-      </video>
+       <video autoplay muted loop>
+       <source src="VID_20250912191930.mp4" type="video/mp4">
+       </video>
+
     </section>
   </main>
+  <div class="wave-container">
+    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#CCDF92" fill-opacity="1" 
+        d="M0,128L20,133.3C40,139,80,149,120,138.7C160,128,200,96,240,106.7C280,117,320,171,360,176C400,181,440,139,480,106.7C520,75,560,53,600,64C640,75,680,117,720,138.7C760,160,800,160,840,154.7C880,149,920,139,960,133.3C1000,128,1040,128,1080,117.3C1120,107,1160,85,1200,85.3C1240,85,1280,107,1320,128C1360,149,1400,171,1420,181.3L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z">
+      </path>
+    </svg>
+  </div>
 
   <input type="checkbox" id="promo-toggle" hidden>
   <label for="promo-toggle" class="promo-btn">🌸</label>
@@ -58,14 +72,45 @@
     <p>🌸 Members enjoy <strong>5% discount</strong> on all flower orders!</p>
     <p>🌼 Register in a group of 5+ for workshops and get <strong>10% off</strong>.</p>
   </div>
+<div class="slider">
+  <div class="slide-track">
+    <div class="slide"><img src="flower 1.png" alt="Flower 1"></div>
+    <div class="slide"><img src="flower 2.png" alt="Flower 2"></div>
+    <div class="slide"><img src="flower 3.png" alt="Flower 3"></div>
+    <div class="slide"><img src="flower 4.png" alt="Flower 4"></div>
+    <div class="slide"><img src="flower 5.png" alt="Flower 5"></div>
+    <div class="slide"><img src="flower 6.png" alt="Flower 6"></div>
+
+    <div class="slide"><img src="flower 1.png" alt="Flower 1"></div>
+    <div class="slide"><img src="flower 2.png" alt="Flower 2"></div>
+    <div class="slide"><img src="flower 3.png" alt="Flower 3"></div>
+    <div class="slide"><img src="flower 4.png" alt="Flower 4"></div>
+    <div class="slide"><img src="flower 5.png" alt="Flower 5"></div>
+    <div class="slide"><img src="flower 6.png" alt="Flower 6"></div>
+  </div>
+</div>
+
   
-  <footer>
-    <p>Contact us</p>
-    <p>&copy; 2025 Root Flower. All Rights Reserved.</p>
-  </footer>
+
+<footer>
+  <p>&copy; 2025 Root Flower. All Rights Reserved.</p>
+  <p>Contact us:<br>
+    <a href="https://www.instagram.com/root.flowersss/" target="_blank" class="ig-link">
+       <i class="fa-brands fa-instagram"></i>
+    </a> 
+    <a href="https://www.facebook.com/theRootFlowerGift/" target="_blank" class="fb-link">
+        <i class="fa-brands fa-square-facebook"></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=60143399709" target="_blank" class="whatsapp-link">
+    <i class="fa-brands fa-square-whatsapp"></i>
+    </a> 
+  </p>
+  <p>Location:<br>
+  <a href="https://www.google.com/maps/place/Root+Flower/@1.5027018,110.3555652,17z/data=!3m1!4b1!4m6!3m5!1s0x31fba7e7dbdd19e9:0xcef55dd65e78119!8m2!3d1.5027018!4d110.3555652!16s%2Fg%2F11rhr3hrp7?entry=ttu"  target="_blank"  class="location-link">
+     Lorong Bdc, 93350 Kuching, Sarawak
+  </a>
+</p>
+</footer>
+
 </body>
 </html>
-
-
-
-
